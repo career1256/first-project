@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F15B22;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Inter';
+    /* font-family: 'sans-serif'; */
+    cursor: pointer;
+
+}
+
+.navLink a {
+    color: white;
+    text-decoration: none;
+}
+
+.navLink a:hover {
+    color: aqua;
+    transition: all;
+    transition-duration: 0.03s;
+}
+
+.navLogo {
+    border-radius: 5px;
+}
+
+/* banner section css */
+.banner img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.FirsImageText {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    text-align: right;
+
+}
+
+.HeaderText {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Inter';
+    font: bold;
+
+}
+
+.Description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #444343;
+}
+
+.BannerButton {
+    padding: 20px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.BannerButton:hover {
+    background-color: black;
+    transition-duration: 0.40s;
+    cursor: pointer;
+
+}
+
+/* First Section */
+.FirstSection {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+
+}
+
+
+
+.FirstSectionHeader {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Work Sans';
+
+}
+
+.FirstSectionDescription {
+    color: #444343;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    margin-top: 20px;
+    font-size: 16;
+}
+
+.FirstSectionUl li{
+    list-style-type: none;
+    margin-top: 5px;
+    color: #444343;
+    font-size: 16px;
+}
+
+/* Second Section  part */
+.secondSection{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* background-color: #F15B22; */
+    margin: 20px;
+   
+    
+}
+.secondSectionText{
+    font-size: 30px;
+    font-weight: 700;
+}
+.secondSectionContent{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.SecondTextPartTwo{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* third section */
+.thirdSectionContent{
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.thirdSectionImage{
+    position: relative;
+}
+.thirdSectionImageTwo{
+    position: absolute;
+    left: 0;
+}
+.thirdSectionContenttext{
+    position: absolute;
+    top: 15%;
+    margin-left: 50px;
+    
+    
+}
+.thirdSectionLeft{
+
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+.callThirdButton{
+    padding: 20px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+    width: 140px;
+    font-weight: 600;
+}
