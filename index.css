@@ -95,6 +95,10 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+
+    margin-top: 150px;
+
+    margin-bottom: 150px;
     
 
 }
@@ -132,6 +136,8 @@
     gap: 100px;
     /* background-color: #F15B22; */
     margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
    
     
 }
@@ -156,8 +162,8 @@
     align-content: center;
     justify-content: center;
     justify-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 220px;
+    margin-bottom: 220px;
 
 }
 
